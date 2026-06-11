@@ -233,7 +233,7 @@ You should get files like:
 - `shots_4_incorrect_1.jsonl`
 - `shots_6_incorrect_2.jsonl`
 
-## AF/IF Testing For One Document
+## (Optional) AF/IF Testing For One Document
 
 Save one document as a text file, then generate ablation cases:
 
