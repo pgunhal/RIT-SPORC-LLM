@@ -22,7 +22,7 @@ set -euo pipefail
 # - SPACK_ENV_NAME can be replaced if your cluster environment changes.
 # - MODEL_NAME_OR_PATH can be any Hugging Face causal LM that fits the requested GPU.
 # - INPUT_PATH and OUTPUT_PATH should point at your task file and desired output location.
-PROJECT_ROOT="${PROJECT_ROOT:-${HOME}/SPORC-LLM-Inference-Template}"
+PROJECT_ROOT="${PROJECT_ROOT:-${HOME}/SPORC-LLM-Inference}"
 SPACK_ENV_NAME="${SPACK_ENV_NAME:-default-ml-x86_64-25052701}"
 MODEL_NAME_OR_PATH="${MODEL_NAME_OR_PATH:-Qwen/Qwen2.5-7B-Instruct}"
 INPUT_PATH="${INPUT_PATH:-${PROJECT_ROOT}/data/sample_inputs.jsonl}"
