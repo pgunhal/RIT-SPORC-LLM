@@ -1,0 +1,3 @@
+{"id":"code-1","dataset":"code","document":"const supportEmail = \"support@example.org\";","instruction":"Focus only on email addresses.","question":"Does this document contain PII? Cite the supporting evidence."}
+{"id":"profile-1","dataset":"web_profile","document":"User profile: Name: Jordan Lee. Hobbies: chess, biking.","instruction":"Focus only on explicit personal identifiers.","question":"Does this document contain PII? Cite the supporting evidence."}
+{"id":"contract-1","dataset":"contracts","document":"The Vendor must not disclose employee tax identification numbers to third parties.","instruction":"Focus only on sensitive identifiers.","question":"Does this document contain PII? Cite the supporting evidence."}
